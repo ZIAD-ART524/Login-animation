@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/Authentification.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form-wrapper sign-in">
+        <form action="#">
+          <h2>Connexion</h2>
+          <div class="input-group">
+            <input type="text" id="login-username" required>
+            <label for="login-username">Nom d'utilisateur</label>
+          </div>
+          <div class="input-group">
+            <input type="password" id="login-password" required>
+            <label for="login-password">Mot de Passe</label>
+          </div>
+          <div class="remember">
+            <label><input type="checkbox"> Se souvenir de moi </label>
+          </div>
+          <button type="submit">Connexion</button>
+          <div class="signUp-link">
+            <p> Vous n'avez pas de compte? <a href="#" class="signUpBtn-link">S'inscrire</a></p>
+          </div>
+        </form>
+      </div>
+      <div class="form-wrapper sign-up">
+        <form action="#">
+          <h2>S'inscrire</h2>
+          <div class="input-group">
+            <input type="text" id="signup-username" required>
+            <label for="signup-username">Nom d'utilisateur</label>
+          </div>
+          <div class="input-group">
+            <input type="email" id="signup-email" required>
+            <label for="signup-email">Email</label>
+          </div>
+          <div class="input-group">
+            <input type="password" id="signup-password" required>
+            <label for="signup-password">Mot de Passe</label>
+          </div>
+          <div class="remember">
+            <label><input type="checkbox"> J'accepte les termes et conditions </label>
+          </div>
+          <button type="submit">S'inscrire</button>
+          <div class="signUp-link">
+            <p>Vous avez déjà un compte ? <a href="#" class="signInBtn-link"> Se connecter </a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="../JS/script.js"></script>
+  </body>
+  </html>                                  
